@@ -1,0 +1,8 @@
+# 36 - Leia a altura e o raio de um cilindro circular e imprima o volume do cilindro. o valome de um cilindro circular
+# é calculado por meio da seguinte fórmula: V = pi * raio² 8 altura, onde pi = 3.141592.
+
+a = float(input('Informe a altura do cilindro: '))
+r = float(input('Informe o raio do cilindro: '))
+
+v = 3.141592 * r ** 2 * a
+print(f'O volume do cilindro é: {v}')
